@@ -1,0 +1,51 @@
+$primary: #070150;
+$success: #f39519;
+$danger: #f56c6c;
+$info: #57c4e5;
+$line: #d9e9fe;
+$line2: #afc8e9;
+$line3: #336699;
+$white: white;
+$shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+@mixin btn-sm {
+  border-radius: 99px;
+  padding: 1rem 3rem;
+}
+
+@mixin btn-md {
+  border-radius: 99px;
+  padding: 0.8rem 1.7rem;
+}
+
+@mixin btn-lg {
+  border-radius: 99px;
+  padding: 1rem 3rem;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin position-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@mixin animTime {
+  transition-duration: 0.2s;
+}
+
+.btn-lg {
+  @include btn-lg();
+}
