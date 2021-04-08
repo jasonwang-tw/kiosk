@@ -1,12 +1,12 @@
-$primary: #070150;
-$success: #f39519;
-$danger: #f56c6c;
-$info: #57c4e5;
+$main: #070150;
+$sup: #f39519;
+$notice: #f56c6c;
+$border: #57c4e5;
 $line: #d9e9fe;
-$line2: #afc8e9;
-$line3: #336699;
+$line-blue: #afc8e9;
+$text-sup: #336699;
 $white: white;
-$shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+$shadow: 0 0 20px rgba(0, 16, 165, 0.2);
 
 @mixin btn-sm {
   border-radius: 99px;

@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/jasonwang-tw/paypaydrink-dashboard.git master:gh-pages
+git push -f https://github.com/jasonwang-tw/kiosk.git master:gh-pages
 
 cd -

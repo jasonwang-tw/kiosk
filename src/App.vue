@@ -20,13 +20,27 @@
     padding: 0;
     height: 100%;
     font-size: 1.75rem;
-    color: $primary;
+    color: $main;
     overflow-x: hidden;
   }
 
   a {
     text-decoration: none;
-    color: $primary;
+    color: $main;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  strong,
+  span,
+  small,
+  big,
+  b {
+    color: $main;
   }
 
   #app {
@@ -41,7 +55,7 @@
     height: 100%;
   }
   ::placeholder {
+    color: $border !important;
     font-weight: 300;
   }
-  
 </style>

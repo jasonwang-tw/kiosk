@@ -35,7 +35,7 @@
 
 <style lang="scss" scoped>
   .topmenu {
-    font-size: 1.2rem;
+    font-size: 36px;
     background-color: #f3f3f3;
     display: flex;
     padding: 0.8rem;
@@ -50,7 +50,7 @@
     }
     .active {
       color: $white;
-      background-color: $success;
+      background-color: $sup;
       @include animTime();
     }
   }
